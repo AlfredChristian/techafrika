@@ -50,6 +50,14 @@ nav ul li a {
     font-size: 0.95rem;
     transition: color 0.3s;
 }
+.team-socials a {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
 
 nav ul li a:hover {
     color: #e94560;
@@ -67,6 +75,10 @@ nav ul li a:hover {
     font-size: 2.8rem;
     margin-bottom: 20px;
     line-height: 1.3;
+}
+
+.valeur span {
+    font-size: 2rem;
 }
 
 .hero-content h1 span {
@@ -124,7 +136,7 @@ nav ul li a:hover {
     border-radius: 12px;
     padding: 30px 25px;
     width: 280px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 15px rgb(0 0 0 / 8%);
     transition: transform 0.3s;
 }
 
@@ -205,9 +217,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.valeur span {
-    font-size: 2rem;
-}
+
 
 .valeur h3 {
     margin: 10px 0 5px;
@@ -229,7 +239,7 @@ footer {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .hero-content h1 {
         font-size: 1.8rem;
     }
@@ -265,7 +275,7 @@ footer {
     background: #f9f9f9;
     border-radius: 12px;
     padding: 35px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    box-shadow: 0 4px 15px rgb(0 0 0 / 6%);
 }
 
 .service-item.reverse {
@@ -307,7 +317,7 @@ footer {
     font-size: 0.85rem;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .service-item,
     .service-item.reverse {
         flex-direction: column;
@@ -336,7 +346,7 @@ footer {
     padding: 30px 25px;
     width: 240px;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 15px rgb(0 0 0 / 8%);
     transition: transform 0.3s;
 }
 
@@ -375,20 +385,12 @@ footer {
     gap: 10px;
 }
 
-.team-socials a {
-    background: #1a1a2e;
-    color: #fff;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    transition: background 0.3s;
-}
 
 .team-socials a:hover {
     background: #e94560;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .team-grid {
         flex-direction: column;
         align-items: center;
