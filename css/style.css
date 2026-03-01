@@ -247,3 +247,70 @@ footer {
         justify-content: center;
     }
 }
+
+/* ========== SERVICES LIST ========== */
+.services-list {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.service-item.reverse {
+    flex-direction: row-reverse;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.service-icon {
+    font-size: 4rem;
+    min-width: 80px;
+    text-align: center;
+}
+
+.service-content h2 {
+    font-size: 1.5rem;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+
+.service-content p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.service-content ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-content ul li {
+    background: #e94560;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .service-item,
+    .service-item.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+}
