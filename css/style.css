@@ -50,6 +50,14 @@ nav ul li a {
     font-size: 0.95rem;
     transition: color 0.3s;
 }
+.team-socials a {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: background 0.3s;
+}
 
 nav ul li a:hover {
     color: #e94560;
@@ -67,6 +75,10 @@ nav ul li a:hover {
     font-size: 2.8rem;
     margin-bottom: 20px;
     line-height: 1.3;
+}
+
+.valeur span {
+    font-size: 2rem;
 }
 
 .hero-content h1 span {
@@ -205,9 +217,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.valeur span {
-    font-size: 2rem;
-}
+
 
 .valeur h3 {
     margin: 10px 0 5px;
@@ -229,8 +239,7 @@ footer {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (width <= 768px) {
-
+@media (max-width: 768px) {
     .hero-content h1 {
         font-size: 1.8rem;
     }
@@ -308,8 +317,7 @@ footer {
     font-size: 0.85rem;
 }
 
-@media (width <= 768px) {
-
+@media (max-width: 768px) {
     .service-item,
     .service-item.reverse {
         flex-direction: column;
@@ -377,21 +385,12 @@ footer {
     gap: 10px;
 }
 
-.team-socials a {
-    background: #1a1a2e;
-    color: #fff;
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    transition: background 0.3s;
-}
 
 .team-socials a:hover {
     background: #e94560;
 }
 
-@media (width <= 768px) {
-
+@media (max-width: 768px) {
     .team-grid {
         flex-direction: column;
         align-items: center;
