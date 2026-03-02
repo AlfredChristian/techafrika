@@ -50,6 +50,7 @@ nav ul li a {
     font-size: 0.95rem;
     transition: color 0.3s;
 }
+
 .team-socials a {
     background: #1a1a2e;
     color: #fff;
@@ -78,6 +79,10 @@ nav ul li a:hover {
 }
 
 .valeur span {
+    font-size: 2rem;
+}
+
+.contact-info-item span {
     font-size: 2rem;
 }
 
@@ -239,7 +244,7 @@ footer {
 }
 
 /* ========== RESPONSIVE ========== */
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .hero-content h1 {
         font-size: 1.8rem;
     }
@@ -317,7 +322,7 @@ footer {
     font-size: 0.85rem;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .service-item,
     .service-item.reverse {
         flex-direction: column;
@@ -390,7 +395,7 @@ footer {
     background: #e94560;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     .team-grid {
         flex-direction: column;
         align-items: center;
@@ -422,10 +427,6 @@ footer {
     background: #f9f9f9;
     padding: 20px;
     border-radius: 10px;
-}
-
-.contact-info-item span {
-    font-size: 2rem;
 }
 
 .contact-info-item h3 {
@@ -490,7 +491,6 @@ footer {
 }
 
 @media (width <= 768px) {
-
     .contact-section {
         flex-direction: column;
     }
